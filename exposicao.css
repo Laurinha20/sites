@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:gray;
+    display: flex;
+    flex-direction: column; /* Alinha itens verticalmente */
+    justify-content: start; /* Alinha itens no início da coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px; /* Adiciona um pouco de espaçamento do topo */
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria três colunas de igual largura */
+    gap: 20px; /* Espaçamento entre os cards */
+    width: 80%; /* Largura do container */
+    margin-top: 20px; /* Espaçamento superior para os cards */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 50%;
+    height: 50%;
+    padding: 10%;
+    border-radius: 20%;
+    align-items: center;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.card-content p {
+    color: #a63939;
+    text-align: center;
+}
+.colorido{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cor1{
+    color: red;
+}
+.cor2{
+    color: yellow;
+}
+.cor3{
+    color: blue;
+}
+.cor4{
+    color: yellowgreen;
+}
+.cor5{
+    color:rgb(9, 164, 152) ;
+}
+.cor6{
+    color: purple;
+}

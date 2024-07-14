@@ -1,0 +1,49 @@
+body {
+    background-color: #ccc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.introducao {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    margin: auto;
+}
+.cor1{
+    color: red;
+}
+.cor2{
+    color: yellow;
+}
+.cor3{
+    color: blue;
+}
+.cor4{
+    color: rgb(0, 0, 0);
+}
+.cor5{
+    color: yellowgreen;
+}
+.cor6{
+    color: red;
+}
+.cor7{
+    color: yellow;
+}
+.cor8{
+    color: blue;
+}
+.cor9{
+    color: yellowgreen;
+}
+.cor10{
+    color: red;
+}
